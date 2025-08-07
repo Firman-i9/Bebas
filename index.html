@@ -7,10 +7,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../script/slider.css">
+    <link rel="stylesheet" href="script/slider.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module" ></script>
-    <link rel="manifest" href="../script/manifest.json">
+    <link rel="manifest" href="script/manifest.json">
 </head>
 <body id="we-slide">
     <header>
@@ -35,7 +35,7 @@
             <h2>Pendahuluan</h2>
             <div class="flex items-center">   
                 <div class="flex flex-1">
-                    <dotlottie-player src="assets/anima/slide-0.json" background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay ></dotlottie-player>
+                    <dotlottie-player src="template-modul/assets/anima/slide-0.json" background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay ></dotlottie-player>
                 </div>
                 <div class="flex flex-1 text-left">
                     <h3>GitHub Issue adalah fitur untuk melacak masalah, tugas, dan permintaan fitur dalam suatu repositori.</h3>
@@ -49,7 +49,7 @@
             <h2>Pendahuluan</h2>
             <div class="flex items-center">   
                 <div class="flex flex-1">
-                    <dotlottie-player src="assets/anima/slide-0.json" background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay ></dotlottie-player>
+                    <dotlottie-player src="template-modul/assets/anima/slide-0.json" background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay ></dotlottie-player>
                 </div>
                 <div class="flex flex-1 text-left">
                     <h3>Fitur ini dapat digunakan untuk membangun daftar tugas, mengoordinasikan pekerjaan tim, dan melacak perkembangan proyek secara keseluruhan.</h3>
@@ -154,7 +154,7 @@
                     </ul>
                 </div>
                 <div class="flex flex-1">
-                    <dotlottie-player src="assets/anima/slide-3.json" background="transparent" speed="1" style="width: 600px; height: 600px" loop autoplay ></dotlottie-player>
+                    <dotlottie-player src="template-modul/assets/anima/slide-3.json" background="transparent" speed="1" style="width: 600px; height: 600px" loop autoplay ></dotlottie-player>
                 </div>
             </div>
         </section>
@@ -164,7 +164,7 @@
         <section class="step" data-x="3700" data-y="-500" data-rotate="-10" data-scale="1.3">
             <div class="flex items-center">   
                 <div class="flex flex-1">
-                    <dotlottie-player src="assets/anima/slide-4.json" background="transparent" speed="1" style="width: 600px; height: 600px" loop autoplay ></dotlottie-player>
+                    <dotlottie-player src="template-modul/assets/anima/slide-4.json" background="transparent" speed="1" style="width: 600px; height: 600px" loop autoplay ></dotlottie-player>
                 </div>
                 <div class="flex-1 text-left">
                     <h2>Fitur Utama</h2>
@@ -197,7 +197,7 @@
                     </ul>
                 </div>
                 <div class="flex flex-3">
-                    <dotlottie-player src="assets/anima/slide-1.json" background="transparent" speed="1" style="width: 600px; height: auto" loop autoplay ></dotlottie-player>
+                    <dotlottie-player src="template-modul/assets/anima/slide-1.json" background="transparent" speed="1" style="width: 600px; height: auto" loop autoplay ></dotlottie-player>
                 </div>
             </div>
         </section>
@@ -376,7 +376,9 @@
         <!-- Slide 21 -->
         <section class="step" data-x="9500" data-y="0" data-scale="2">
             <h2 class="text-left">kesimpulan</h2>
-            <p class="text-left">GitHub Issues adalah alat yang digunakan dalam perencanaan tim, mendiskusikan, dan melacak pekerjaan mereka. Kesederhanaan, kenyamanan, dan fitur-fitur yang ada menjadikannya aset yang sangat berharga dalam proses pengembangan aplikasi atau dokumen</p>
+            <p class="text-left">GitHub Issues adalah alat yang digunakan dalam perencanaan tim, mendiskusikan, dan melacak pekerjaan mereka. 
+                Kesederhanaan, kenyamanan, dan fitur-fitur yang ada menjadikannya aset yang sangat berharga dalam proses pengembangan aplikasi atau dokumen
+            </p>
         </section>
 
     </div>
@@ -402,13 +404,13 @@
             </div> -->
              <div class="control flex align-center">
                 <div id="prev-slide" class="icon flex align-center justify-center icon-bg">
-                    <img id="prev-icon" src="../icons/arrow-left.svg" alt="back to previous slide"/>
+                    <img id="prev-icon" src="icons/arrow-left.svg" alt="back to previous slide"/>
                 </div>
                 <div id="full-slide" class="icon flex align-center justify-center icon-bg">
-                    <img id="full-icon" src="../icons/maximize.svg" data-maxs="../icons/maximize.svg" data-mins="../icons/minimize.svg" alt="fulscreen mode"/>
+                    <img id="full-icon" src="icons/maximize.svg" data-maxs="icons/maximize.svg" data-mins="icons/minimize.svg" alt="fulscreen mode"/>
                 </div>
                 <div id="next-slide" class="icon flex align-center justify-center icon-bg">
-                    <img id="next-icon" src="../icons/arrow-right.svg" alt="go to next slide"/>
+                    <img id="next-icon" src="icons/arrow-right.svg" alt="go to next slide"/>
                 </div>
             </div>
         </div>
@@ -416,7 +418,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/impress/impress.js@2.0.0/js/impress.js"></script>
-    <script src="../script/accent.js"></script>
-    <script src="../script/slider.js"></script>
+    <script src="script/accent.js"></script>
+    <script src="script/slider.js"></script>
 </body>
 </html>
